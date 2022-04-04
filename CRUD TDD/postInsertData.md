@@ -10,7 +10,7 @@
 
 `$this->withoutExceptionHandling();`
 
-### Codigo test method Post:
+### Codigo test method POST, Ingresar un registro:
 
 ```php
     use RefreshDatabase;

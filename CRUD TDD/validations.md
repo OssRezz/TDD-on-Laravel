@@ -7,7 +7,7 @@
 `/** @test */`
 
 
-### Codigo test method GET, retornar solo un dato:
+### Validaciones de campos:
 
 ```php
     /** @test */

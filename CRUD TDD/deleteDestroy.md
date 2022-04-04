@@ -10,7 +10,7 @@
 
 `$this->withoutExceptionHandling();`
 
-### Codigo test method GET, retornar solo un dato:
+### Codigo test method DELETE, eliminar un recurso:
 
 ```php
     /** @test */

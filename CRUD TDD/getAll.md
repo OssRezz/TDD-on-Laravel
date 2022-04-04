@@ -10,7 +10,7 @@
 
 `$this->withoutExceptionHandling();`
 
-### Codigo test method GET:
+### Codigo test method GET, retronar todos los datos:
 
 ```php
     use RefreshDatabase;
