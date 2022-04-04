@@ -42,7 +42,7 @@ Time: 00:00.561, Memory: 30.00 MB
 
 ## TDD
 
-### La idea de TDD es crear el test y en base a los errores que nos devuelve en la consola, Vamos creando la funcionalidad.
+### La idea de TDD es crear el test y en base a los errores que nos devuelve en la consola, vamos creando la funcionalidad.
 
 ### En este caso nos dira que no existe el modelo, la ruta, la migracion, la tabla, la base de datos, el controlador, la funcion del contralador etc...
 
