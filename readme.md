@@ -19,7 +19,7 @@ recurso, controladores, porciones largas de codigo.
 ## Para correr todos los test
 
 -Para correr todos los test de una clase usamos el sgt comando:  
-No se utiliza la extesion .php y en este ejemplo lo estamos corriendo desde la raiz del proyecto.
+No se utiliza la extension .php y en este ejemplo lo estamos corriendo desde la raiz del proyecto.
 
 `vendor\bin\phpunit --filter BlogManagmentTest`
 
@@ -40,11 +40,11 @@ Time: 00:00.561, Memory: 30.00 MB
 
 `vendor\bin\phpunit --filter a_post_can_be_created`
 
+## TDD
+
 ### La idea de tdd es crear el test y en base a los errores que nos devuelve en la consola, Vamos creando la funcionalidad.
 
 ### En este caso nos dira que no existe el modelo, la ruta, la migracion, la tabla, la base de datos, el controlador, la funcion del contralador etc...
-
-## TDD
 
 ### 1) Escribimos la prueba
 
