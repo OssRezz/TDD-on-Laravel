@@ -35,18 +35,21 @@ El punto significa la cantidad de test que corrimos, este caso fue solo uno
 
 ### La idea de tdd es crear el test y en base a los errores que nos devuelve en la consola, Vamos creando la funcionalidad.
 
-#### En este caso nos dira que no existe el modelo, la ruta, la migracion, la tabla, la base de datos, el controlador, la funcion del contralador etc...
+### En este caso nos dira que no existe el modelo, la ruta, la migracion, la tabla, la base de datos, el controlador, la funcion del contralador etc...
 
-## 1) Escribimos la prueba
+## TDD
 
-## 2) Ejecutamos
 
-## Si sale en rojo, corregimos nuestros error.
+### 1) Escribimos la prueba
 
-## 3)Implemetamos
+### 2) Ejecutamos
 
-## Si sale en rojo, repetimos todos los pasos anteriores
+### Si sale en rojo, corregimos nuestros error.
 
-## Si sale en verde pasamos al seguiente paso que es refactorizar
+### 3)Implemetamos
 
-## 4)Refactorizacion de codigo
+### Si sale en rojo, repetimos todos los pasos anteriores
+
+### Si sale en verde pasamos al seguiente paso que es refactorizar
+
+### 4)Refactorizacion de codigo
