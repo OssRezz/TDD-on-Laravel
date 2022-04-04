@@ -19,6 +19,10 @@
 
 `$response->assertOk();` Si la respuesta tiene el codigo de estatus 200
 
+### assertStatus
+
+`$response->assertStatus(200);` Si la respuesta tiene el codigo de estatus 200
+
 ### assertViewIs
 
 `$response->assertViewIs('posts.index');` If the return of the controller has the view index in the folder posts
