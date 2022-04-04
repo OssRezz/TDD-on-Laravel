@@ -20,7 +20,7 @@
             'content' => 'Esto es un contenido',
         ]);
 
-        $response->assertSessionHasErrors(['title']);F
+        $response->assertSessionHasErrors(['title']);
     }
 
     /** @test */
