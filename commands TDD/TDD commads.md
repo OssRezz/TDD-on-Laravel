@@ -35,4 +35,5 @@ $response->assertViewHas('posts', $posts);
 
 # Documentacion de testing en laravel:
 
-[Documentacion](https://laravel.com/docs/4.2/testing)
+[Documentacion about testing](https://laravel.com/docs/9.x/testing)
+[http documentacion testing](https://laravel.com/docs/9.x/http-tests)
