@@ -27,7 +27,7 @@ No se utiliza la extesion .php y en este ejemplo lo estamos corriendo desde la r
 El punto significa la cantidad de test que corrimos, este caso fue solo uno
 
 ```diff
-.  
+.
 +OK (1 test, 1 assetion)
 ```
 

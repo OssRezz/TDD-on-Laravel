@@ -6,7 +6,7 @@
 
 `/** @test */`
 
-## El metodo withoutExceptionHandling, desactiva la exepcion que esta atrapando el test, de esta manera podemos ver los errores.
+## El metodo withoutExceptionHandling, desactiva la exepcion que esta atrapando el test, de esta manera podemos ver los errores de una manera mas comoda, entedibles para ir implemtando lo que nos hace falta.
 
 `$this->withoutExceptionHandling();`
 
@@ -33,3 +33,4 @@
         $this->assertEquals($post->content, 'Test content');
     }
 ```
+
