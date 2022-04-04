@@ -43,7 +43,7 @@ El punto significa la cantidad de test que corrimos, este caso fue solo uno
 
 ### 2) Ejecutamos
 
-#### Si sale en rojo, corregimos el error.
+#### Si sale en rojo.red, corregimos el error.
 
 ### 3) Implementamos funcionalidad
 
@@ -51,6 +51,6 @@ El punto significa la cantidad de test que corrimos, este caso fue solo uno
 
 #### Si sale en rojo, repetimos todos los pasos anteriores
 
-#### Si sale en verde pasamos al seguiente paso que es refactorizar
+#### Si sale en verde.green pasamos al seguiente paso que es refactorizar
 
 ### 5) Refactorizacion de codigo
