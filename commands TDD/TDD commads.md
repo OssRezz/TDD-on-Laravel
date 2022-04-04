@@ -41,3 +41,15 @@ $response->assertViewHas('posts', $posts);
 
 `$response->assertRedirect('post/' . $post->id);` Nos redirige a una vista
 
+### assertSessionHasErrors
+
+Si la sesion tiene un error, va a devolver true. Esto nos sirve para validar errores.
+
+```php
+        $response = $this->post('post', [
+            'title' => 'Esto es un titulo',
+            'content' => '',
+        ]);
+
+        $response->assertSessionHasErrors(['content']);
+```
