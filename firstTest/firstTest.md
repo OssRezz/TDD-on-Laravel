@@ -12,23 +12,24 @@
 
 ### Codigo test:
 
-`/** @test */`
+```php
+    use RefreshDatabase;
+    /** @test */
+    public function a_post_can_be_created()
+    {
+        $this->withoutExceptionHandling();
 
-`public function a_post_can_be_created()`  
-`{`
+        $response = $this->post('post', [
+            'title' => 'Test title',
+            'content' => 'Test content',
+        ]);
 
-`$this->withoutExceptionHandling();`
+        $response->assertOk(); //Si la respuesta esta bien = 200
+        $this->assertCount(1, Post::all());
 
-` $response = $this->post('post', [`  
-` 'title' => 'Test title',`  
-` 'content' => 'Test content',`  
-` ]);`
+        $post = Post::first();
 
-` $response->assertOk(); //Si la respuesta esta bien`  
-` $this->assertCount(1, Post::all());`
-
-` $post = Post::first();`
-
-` $this->assertEquals($post->title, 'Test title');`  
-` $this->assertEquals($post->content, 'Test content');`  
-`}`
+        $this->assertEquals($post->title, 'Test title');
+        $this->assertEquals($post->content, 'Test content');
+    }
+```
