@@ -23,6 +23,16 @@
 
 `$response->assertViewIs('posts.index');` If the return of the controller has the view index in the folder posts
 
+### assertViewHas
+
+If the view has posts parameter in the return.
+
+```php
+$posts = Post::factory(3)->create();
+$posts = Post::all();
+$response->assertViewHas('posts', $posts);
+```
+
 # Documentacion de testing en laravel:
 
 [Documentacion](https://laravel.com/docs/4.2/testing)
