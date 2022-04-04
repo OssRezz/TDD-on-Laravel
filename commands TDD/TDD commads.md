@@ -8,7 +8,7 @@
 
 #### post
 
-````php
+```php
  $response = $this->post('post', [
             'title' => 'Test title',
             'content' => 'Test content',
