@@ -43,7 +43,7 @@ $response->assertViewHas('posts', $posts);
 
 ### assertSessionHasErrors
 
-Si la sesion tiene un error, va a devolver true. Esto nos sirve para validar errores.
+Si la sesion tiene un error, va a devolver true. Esto nos sirve para validar campos.
 
 ```php
         $response = $this->post('post', [
