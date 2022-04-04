@@ -51,6 +51,6 @@ El punto significa la cantidad de test que corrimos, este caso fue solo uno
 
 #### Si sale en rojo, repetimos todos los pasos anteriores
 
-#### Si sale en verde.green pasamos al seguiente paso que es refactorizar
+#### Si sale en verde bt.green pasamos al seguiente paso que es refactorizar
 
 ### 5) Refactorizacion de codigo
