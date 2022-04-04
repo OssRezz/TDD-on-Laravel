@@ -26,8 +26,10 @@ No se utiliza la extesion .php y en este ejemplo lo estamos corriendo desde la r
 -Obtendremos como respuesta en la consola:  
 El punto significa la cantidad de test que corrimos, este caso fue solo uno
 
-`.`  
-`OK (1 test, 1 assetion)`
+```diff
+.  
++OK (1 test, 1 assetion)
+```
 
 -Una vez creada la funcion del test podemos usar el nombre del test para ejecutarlo
 
