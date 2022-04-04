@@ -16,22 +16,27 @@ recurso, controladores, porciones largas de codigo.
 
 `-php artisan make:test NombreTest --unit`
 
-## Para correr un test
+## Para correr todos los test
 
--Para correr un test usamos el sgt comando:  
+-Para correr todos los test de una clase usamos el sgt comando:  
 No se utiliza la extesion .php y en este ejemplo lo estamos corriendo desde la raiz del proyecto.
 
 `vendor\bin\phpunit --filter BlogManagmentTest`
 
 -Obtendremos como respuesta en la consola:  
-El punto significa la cantidad de test que corrimos, este caso fue solo uno
+El punto significa la cantidad de test que corrimos, este caso fueron 3, ... 3 test
 
 ```diff
-.
-+OK (1 test, 1 assetion)
+...                                                                 3 / 3 (100%)
+
+Time: 00:00.561, Memory: 30.00 MB
+
++OK (3 tests, 11 assertions)
 ```
 
--Una vez creada la funcion del test podemos usar el nombre del test para ejecutarlo
+## Para correr un solo test
+
+-Una vez creado el archivo y clase del test podemos usar el nombre de la funcion para ejecutarlo
 
 `vendor\bin\phpunit --filter a_post_can_be_created`
 
@@ -60,3 +65,8 @@ El punto significa la cantidad de test que corrimos, este caso fue solo uno
 ```
 
 ### 5) Refactorizacion de codigo
+
+### Documentacion de testing en laravel:
+
+[Documentacion about testing](https://laravel.com/docs/9.x/testing)  
+[http documentacion testing](https://laravel.com/docs/9.x/http-tests)

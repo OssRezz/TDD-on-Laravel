@@ -23,7 +23,7 @@
 
 `$response->assertStatus(200);` Si la respuesta tiene el codigo de estatus 200
 
-### assertViewIs $response->assertRedirect('post/' . $post->id);
+### assertViewIs
 
 `$response->assertViewIs('posts.index');` If the return of the controller has the view index in the folder posts
 
@@ -41,7 +41,3 @@ $response->assertViewHas('posts', $posts);
 
 `$response->assertRedirect('post/' . $post->id);` Nos redirige a una vista
 
-# Documentacion de testing en laravel:
-
-[Documentacion about testing](https://laravel.com/docs/9.x/testing)  
-[http documentacion testing](https://laravel.com/docs/9.x/http-tests)
