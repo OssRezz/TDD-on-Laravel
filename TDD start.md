@@ -39,17 +39,18 @@ El punto significa la cantidad de test que corrimos, este caso fue solo uno
 
 ## TDD
 
-
 ### 1) Escribimos la prueba
 
 ### 2) Ejecutamos
 
-### Si sale en rojo, corregimos nuestros error.
+### Si sale en rojo, corregimos el error.
 
-### 3)Implemetamos
+### 3) Implementamos funcionalidad
+
+### 4) Ejecutamos
 
 ### Si sale en rojo, repetimos todos los pasos anteriores
 
 ### Si sale en verde pasamos al seguiente paso que es refactorizar
 
-### 4)Refactorizacion de codigo
+### 5) Refactorizacion de codigo
