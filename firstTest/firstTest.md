@@ -1,6 +1,8 @@
-`//use RefreshDatabase nos ayuda a ejecutar migraciones antes de ejecutar un test, de esta manera lo hará de forma automatica`
+## use RefreshDatabase nos ayuda a ejecutar migraciones antes de ejecutar un test, de esta manera lo hará de forma automatica
 `use RefreshDatabase;`
-`/\*_ @test _/`
+
+##  Es importante poner el comentario de @test de esta manera php sabrá que es un test
+`/** @test */`
 `public function a_post_can_be_created()`
 `{`
 `//Desactiva la exepcion que esta atrapando el test`
