@@ -6,11 +6,11 @@
 
 `/** @test */`
 
-## El metodo withoutExceptionHandling, desactiva la exepcion que esta atrapando el test, de esta manera podemos ver los errores de una manera mas comoda, entedibles para ir implemtando lo que nos hace falta.
+## El metodo withoutExceptionHandling, desactiva la excepción que esta atrapando el test, de esta manera podemos ver los errores de una manera mas comoda, entendible para ir implementando lo que nos hace falta.
 
 `$this->withoutExceptionHandling();`
 
-### Codigo test:
+### Codigo test method Post:
 
 ```php
     use RefreshDatabase;
@@ -33,4 +33,3 @@
         $this->assertEquals($post->content, 'Test content');
     }
 ```
-

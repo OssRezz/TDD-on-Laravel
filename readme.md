@@ -46,7 +46,7 @@ El punto significa la cantidad de test que corrimos, este caso fue solo uno
 ### 2) Ejecutamos
 
 ```diff
--Si sale en rojo.red, corregimos el error.
+-Si sale en rojo, corregimos el error.
 ```
 
 ### 3) Implementamos funcionalidad
